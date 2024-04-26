@@ -102,7 +102,7 @@ const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!, 𝐲𝐨�
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐅**𝐤 𝐬𝐭𝐟𝐮 𝐲𝐨𝐮 𝐚𝐢𝐧𝐭 𝐮𝐧𝐫𝐮𝐥𝐲'
     const NotOwner = process.env.NOT_OWNER_MSG || 'stfu you aint 𝐮𝐧𝐫𝐮𝐥𝐲';
-const wapresence = process.env.WA_PRESENCE || 'recording';
+const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
 
