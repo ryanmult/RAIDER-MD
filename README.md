@@ -40,7 +40,7 @@ Linking/Pairing:
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@sayless5714/PAIRING-UNRULY-BOT?v=1"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="left">  <a href="https://replit.com/@sayless5714/PAIRING-RAIDER-BOT?s=app"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 
