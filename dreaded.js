@@ -41,7 +41,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '&';
+    const prefix = process.env.PREFIX || '.';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
@@ -1107,7 +1107,7 @@ await m.reply('Successfully removed!');
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/e3518f079801bc1c0c8a6.jpg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy RAIDER-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/Trenchguy/RAIDER-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@sayless5714/PAIRING-UNRULY-BOT?v=1\n\nAlways count on UNRULY😈..\n\nMade on Earth by 𝑼𝑵𝑹𝑼𝑳𝒀!!` });
+`👋🏻 Hi *${pushname}*,You can deploy RAIDER-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/Trenchguy/RAIDER-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@sayless5714/PAIRING-RAIDER-BOT?s=app\n\nAlways count on UNRULY😈..\n\nMade on Earth by 𝑼𝑵𝑹𝑼𝑳𝒀!!` });
 
    break;
                                                   
