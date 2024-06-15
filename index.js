@@ -147,8 +147,8 @@ function smsg(conn, m, store) {
 
 async function startHisoka() {
   const { state, saveCreds } = await useMultiFileAuthState(`./${sessionName ? sessionName : "dreaded1"}`);
-  const { version, isLatest } = await fetchLatestBaileysVersion();
-  console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
+  /* const { version, isLatest } = await fetchLatestBaileysVersion();
+  console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`); */
   console.log(
     color(
       figlet.textSync("RAIDER-AI", {
@@ -165,6 +165,7 @@ async function startHisoka() {
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["CHATGPT - DREADED", "Safari", "5.1.7"],
+version: [2, 2413, 1],
     auth: state,
 syncFullHistory: true,
   });
